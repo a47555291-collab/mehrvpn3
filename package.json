@@ -1,0 +1,11 @@
+{
+  "name": "mehrvpn-ui-tests",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Development-only DOM tests; Node is not required on the VPN server",
+  "scripts": {
+    "test": "node --test tests/test_ui.cjs",
+    "check": "node --check panel/static/app.js"
+  },
+  "devDependencies": { "jsdom": "30.0.1" }
+}
